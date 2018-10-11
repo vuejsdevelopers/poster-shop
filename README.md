@@ -2,7 +2,7 @@
 
 #### Demo
 
-See the completed project here: [http://poster-shop.vuejsdevelopers.com/](http://vuejs-poster-shop.vuejsdevelopers.com/)
+See the completed project here: [http://poster-shop.vuejsdevelopers.com/](http://poster-shop.vuejsdevelopers.com/)
 
 #### Pre-installation
 
@@ -18,7 +18,7 @@ Ensure [Node.js  >=4](https://nodejs.org/en/download/), [NPM](https://docs.npmjs
         ```
         cd /path/to/install/location
         
-        git clone https://github.com/[your_username]/vuejs-poster-shop.git
+        git clone https://github.com/[your_username]/poster-shop.git
         ```
 
 2. Change directory into the local clone of the repository
