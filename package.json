@@ -1,0 +1,30 @@
+{
+  "name": "vuejs-poster-shop",
+  "version": "2.0.0",
+  "description": "Vue.js Poster Shop",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon ./server.js --ignore node_modules/ -e js,html,css",
+    "lint": "eslint server.js public/script.js"
+  },
+  "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuejsdevelopers/vuejs-poster-shop"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.15.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "nodemon": "^1.11.0",
+    "reload": "^2.3.1"
+  }
+}
