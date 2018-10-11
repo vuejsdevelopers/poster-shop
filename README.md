@@ -45,7 +45,7 @@ Ensure [Node.js  >=4](https://nodejs.org/en/download/), [NPM](https://docs.npmjs
 
 Note that branches in the repo named `lecture/xxx` correspond to course lectures.
 
-#### It's not working!
+## Troubleshooting
 
 Here are some common mistakes people make, check these before filing an issue:
 
