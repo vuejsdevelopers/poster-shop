@@ -1,5 +1,7 @@
 # Vue.js Poster Shop
 
+Source code for the case-study project from the course [Build Your First Vue.js App](https://vuejsdevelopers.teachable.com/p/build-your-first-vue-js-app)
+
 #### Demo
 
 See the completed project here: [http://poster-shop.vuejsdevelopers.com/](http://poster-shop.vuejsdevelopers.com/)
@@ -24,7 +26,7 @@ Ensure [Node.js  >=4](https://nodejs.org/en/download/), [NPM](https://docs.npmjs
 2. Change directory into the local clone of the repository
 
     ```
-    cd vuejs-poster-shop
+    cd poster-shop
     ```
 
 3. Install dependencies
