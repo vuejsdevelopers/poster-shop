@@ -1,6 +1,6 @@
 {
-  "name": "vuejs-poster-shop",
-  "version": "2.0.0",
+  "name": "poster-shop",
+  "version": "1.0.0",
   "description": "Vue.js Poster Shop",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejsdevelopers/vuejs-poster-shop"
+    "url": "https://github.com/vuejsdevelopers/poster-shop"
   },
   "engines": {
     "node": ">=4"
