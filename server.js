@@ -25,7 +25,7 @@ app.get("/search", function(req, res) {
 			acc.push({
 				id: file.id,
 				title: file.title,
-				url: "/public/images/".concat(file.name),
+				thumb: "/public/images/".concat(file.thumb),
 				price: file.price
 			});
 		}
