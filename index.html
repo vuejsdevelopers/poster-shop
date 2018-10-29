@@ -25,7 +25,7 @@
 			<div v-for="product in products" class="product" v-bind:key="product.id">
 				<div>
 					<h4 class="product-title">{{ product.title }}</h4>
-					<button v-on:click="addToCart" class="add-to-cart btn">Add to Cart</button>
+					<button v-on:click="addToCart(product)" class="add-to-cart btn">Add to Cart</button>
 				</div>
 			</div>
         </div>
