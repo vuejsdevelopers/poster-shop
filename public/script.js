@@ -27,6 +27,12 @@ new Vue({
 					qty: 1
 				});
 			}
+		},
+		inc: function(item) {
+			console.log("inc");
+		},
+		dec: function(item) {
+			console.log("dec");
 		}
 	},
 	filters: {
