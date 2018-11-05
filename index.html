@@ -31,6 +31,11 @@
         </div>
         <div class="cart">
             <h2>Shopping Cart</h2>
+			<ul>
+				<li v-for="item in cart" v-bind:key="item.id" class="cart-item">
+					<div class="item-title">{{ item.title }}</div>
+				</li>
+			</ul>
             <div>
                 Total: {{ total }}
             </div>
