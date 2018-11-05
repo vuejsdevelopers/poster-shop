@@ -19,6 +19,7 @@
                 <h1>Vue.js Poster Shop</h1>
             </div>
 			<form class="search-bar" v-on:submit.prevent="onSubmit">
+				<input type="text" placeholder="Search for posters" required v-model="search">
 				<input type="submit" value="Search" class="btn">
 			</form>
         </div>
