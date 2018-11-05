@@ -29,10 +29,15 @@ new Vue({
 			}
 		},
 		inc: function(item) {
-			console.log("inc");
+			item.qty++;
+			this.total += item.price;
 		},
 		dec: function(item) {
-			console.log("dec");
+			item.qty--;
+			this.total -= item.price;
+		},
+		onSubmit: function() {
+			console.log("Search");
 		}
 	},
 	filters: {
