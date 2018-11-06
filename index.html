@@ -29,7 +29,13 @@
         <div class="products">
 			<div v-for="product in products" class="product" v-bind:key="product.id">
 				<div>
+					<div class="product-image">
+						<img v-bind:src="product.thumb">
+					</div>
+				</div>
+				<div>
 					<h4 class="product-title">{{ product.title }}</h4>
+					<p class="product-price"><strong>{{ product.price | currency }}</strong></p>
 					<button v-on:click="addToCart(product)" class="add-to-cart btn">Add to Cart</button>
 				</div>
 			</div>
