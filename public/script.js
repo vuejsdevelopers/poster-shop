@@ -35,6 +35,7 @@ new Vue({
 			this.total -= item.price;
 		},
 		onSubmit: function() {
+			this.products = [];
 			var path = "/search?q=".concat(this.search);
 			this.$http.get(path)
 				.then(function(response) {
