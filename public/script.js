@@ -38,7 +38,11 @@ new Vue({
 			this.total -= item.price;
 		},
 		onSubmit: function() {
-			console.log("Search");
+			var path = "/search?q=".concat(this.search);
+			this.$http.get(path)
+				.then(function(response) {
+					console.log(response);
+				});
 		}
 	},
 	filters: {
