@@ -38,8 +38,10 @@ new Vue({
 			var path = "/search?q=".concat(this.search);
 			this.$http.get(path)
 				.then(function(response) {
-					this.products = response.body;
-					this.lastSearch = this.search;
+					setTimeout(function() {
+						this.products = response.body;
+						this.lastSearch = this.search;
+					}.bind(this), 3000);
 				});
 		}
 	},
