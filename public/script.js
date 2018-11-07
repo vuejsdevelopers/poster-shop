@@ -60,3 +60,10 @@ new Vue({
 		this.onSubmit();
 	}
 });
+
+var sensor = document.querySelector("#product-list-bottom");
+var watcher = scrollMonitor.create(sensor);
+
+watcher.enterViewport(function() {
+	console.log("Sensor has entered the viewport.");
+});
