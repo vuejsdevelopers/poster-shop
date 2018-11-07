@@ -49,6 +49,9 @@ new Vue({
 					this.lastSearch = this.search;
 					this.loading = false;
 				});
+		},
+		appendResults: function() {
+			console.log("Append results");
 		}
 	},
 	filters: {
