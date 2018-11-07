@@ -1,4 +1,5 @@
 var LOAD_NUM = 4;
+var watcher;
 
 new Vue({
 	el: "#app",
@@ -61,12 +62,16 @@ new Vue({
 	},
 	created: function() {
 		this.onSubmit();
+	},
+	updated: function() {
+		var sensor = document.querySelector("#product-list-bottom");
+		watcher = scrollMonitor.create(sensor);
+		watcher.enterViewport(this.appendResults);
+	},
+	beforeUpdate: function() {
+		if (watcher) {
+			watcher.destroy();
+			watcher = null;
+		}
 	}
-});
-
-var sensor = document.querySelector("#product-list-bottom");
-var watcher = scrollMonitor.create(sensor);
-
-watcher.enterViewport(function() {
-	console.log("Sensor has entered the viewport.");
 });
