@@ -376,3 +376,25 @@ body {
 .fade-enter-active {
 	transition: opacity 0.5s;
 }
+
+[v-cloak] > * {
+	display: none;
+}
+
+[v-cloak]> #loading {
+	display: block;
+	padding: 1em;
+}
+
+#loading {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
