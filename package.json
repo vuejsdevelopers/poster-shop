@@ -17,14 +17,14 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.15.2",
-    "dotenv": "^6.0.0",
-    "express": "^4.14.0"
+    "axios": "~0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "~6.0.0",
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "nodemon": "^1.18.9",
-    "reload": "^2.3.1"
+    "eslint": "~5.5.0",
+    "nodemon": "~1.18.9",
+    "reload": "~2.3.1"
   }
 }
