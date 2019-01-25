@@ -43,10 +43,6 @@ Ensure [Node.js  >=4](https://nodejs.org/en/download/), [NPM](https://docs.npmjs
 
 5. Your site will be available at *localhost:3000*.
 
-#### Lecture branches
-
-Note that branches in the repo named `lecture/xxx` correspond to course lectures.
-
 ## Troubleshooting
 
 Here are some common mistakes people make, check these before filing an issue:
@@ -57,3 +53,45 @@ Here are some common mistakes people make, check these before filing an issue:
 ```
 node -v
 ```
+
+## Lecture branches
+
+Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/05` show the state of the code at the end of video 5.
+
+If you're doing the "Vue.js Essentials - 3 Course Bundle" course on Udemy, you'll need the following conversion table to match the branch to the lecture number.
+
+| Lecture # | Branch name |
+| - | - |
+| 15 | video/05 |
+| 16 | video/06 |
+| 17 | video/07 |
+| 19 | video/09 |
+| 20 | video/10 |
+| 21 | video/11 |
+| 22 | video/12 |
+| 25 | video/15 |
+| 26 | video/16 |
+| 27 | video/17 |
+| 28 | video/18 |
+| 29 | video/19 |
+| 31 | video/21 |
+| 32 | video/22 |
+| 33 | video/23 |
+| 35 | video/25 |
+| 38 | video/28 |
+| 39 | video/29 |
+| 40 | video/30 |
+| 41 | video/31 |
+| 42 | video/32 |
+| 43 | video/33 |
+| 45 | video/35 |
+| 47 | video/37 |
+| 48 | video/38 |
+| 49 | video/39 |
+| 50 | video/40 |
+| 51 | video/41 |
+| 52 | video/42 |
+| 53 | video/43 |
+| 54 | video/44 |
+| 55 | video/45 |
+| - | - |
