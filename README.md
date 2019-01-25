@@ -58,7 +58,7 @@ node -v
 
 Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/05` show the state of the code at the end of video 5.
 
-If you're doing the "Vue.js Essentials - 3 Course Bundle" course on Udemy, you'll need the following conversion table to match the branch to the lecture number.
+If you're doing the *Vue.js Essentials - 3 Course Bundle* course on Udemy, you'll need the following conversion table to match the branch to the lecture number.
 
 | Lecture # | Branch name |
 | - | - |
@@ -94,4 +94,3 @@ If you're doing the "Vue.js Essentials - 3 Course Bundle" course on Udemy, you'l
 | 53 | video/43 |
 | 54 | video/44 |
 | 55 | video/45 |
-| - | - |
