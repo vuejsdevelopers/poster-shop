@@ -56,7 +56,9 @@ node -v
 
 ## Lecture branches
 
-Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/05` show the state of the code at the end of video 5.
+Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/05` shows the state at the end of video 5.
+
+If you want the initial state of the code, use the `master` branch.
 
 If you're doing the *Vue.js Essentials - 3 Course Bundle* course on Udemy, you'll need the following conversion table to match the branch to the lecture number.
 
