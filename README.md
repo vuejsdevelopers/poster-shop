@@ -1,6 +1,7 @@
 # Vue.js Poster Shop
 
-Source code for the case-study project from the course [Build Your First Vue.js App](https://vuejsdevelopers.teachable.com/p/build-your-first-vue-js-app)
+Source code for the case-study project from the course [Build Your First Vue.js App](https://courses.vuejsdevelopers.com/p/build-your-first-vue-js-app?utm_source=github-vjd&utm_medium=post
+)
 
 #### Demo
 
