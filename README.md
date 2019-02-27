@@ -55,6 +55,12 @@ Here are some common mistakes people make, check these before filing an issue:
 node -v
 ```
 
+## Sponsors
+
+<a href="https://vueschool.io" target="_blank"><img src="https://vueschool.io/img/logo/vueschool_logo_multicolor.svg" height="40" alt="Vue School"/></a>
+
+[Support Vue.js Developers](https://www.patreon.com/anthonygore?utm-source=github-vjd&utm-medium=link&utm_campaign=sponsors) to get your logo here.
+
 ## Lecture branches
 
 Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/05` shows the state at the end of video 5.
