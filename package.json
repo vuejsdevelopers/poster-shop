@@ -20,7 +20,8 @@
     "axios": "~0.18.0",
     "body-parser": "~1.18.3",
     "dotenv": "~6.0.0",
-    "express": "~4.16.4"
+    "express": "~4.16.4",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "eslint": "~5.5.0",
